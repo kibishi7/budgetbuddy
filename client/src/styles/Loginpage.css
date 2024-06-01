@@ -1,0 +1,78 @@
+/* Styles for the login page container */
+.login-page {
+  height: 100vh !important;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* Styles for the login form container */
+.login-form {
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-left: 10px; /* Adjust the margin-left to shift the form to the right */
+}
+
+/* Styles for the login form title */
+.login-form h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #344265;
+  margin: 0 0 30px;
+}
+
+/* Styles for the form fields */
+.login-form .ant-form-item-label label {
+  color: #344265 !important;
+  font-weight: bold;
+}
+
+/* Styles for the login button */
+.login-form button {
+  width: 50%; /* Adjust the width to make the button smaller */
+  background-color: #344265;
+  color: white;
+  border: none;
+  padding: 10px 16px; /* Adjust the padding to make the button smaller */
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.login-form button:hover {
+  background-color: #2c2c2c;
+}
+
+/* Styles for the "Create an account" link */
+.login-form a {
+  display: block;
+  text-align: center;
+  color: #344265;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  color: #2c2c2c;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .login-form {
+    padding: 20px;
+  }
+
+  .login-form h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+}
